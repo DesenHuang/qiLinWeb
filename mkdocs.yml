@@ -1,0 +1,79 @@
+# Project information
+site_name: 麒麟缘配
+site_description: awesome G437 
+site_author: Harrison
+
+# Repository
+repo_name: doc
+repo_url: https://github.com/DesenHuang/qiLinWeb
+
+# 左侧导航
+nav:
+  - 项目介绍:
+    - '产品特性.md'
+
+
+# 主题信息
+theme:
+  name: material
+  # 调色板
+  palette:
+    - scheme: default
+      primary: default
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: 切换至夜间模式
+    - scheme: slate
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至日间模式
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    # 下滑浏览时，支持返回到顶部
+    - navigation.top
+    - search.share
+    # 搜索建议词
+    - search.suggest
+    # 代码属性设置参考 https://squidfunk.github.io/mkdocs-material/reference/code-blocks/?h=code
+    # 代码复制按钮
+    - content.code.copy
+
+extra:
+  # 社交链接、重要链接等
+  # icon 来自 https://github.com/FortAwesome/Font-Awesome
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/DesenHuang
+
+# markdown 扩展特性
+markdown_extensions:
+  - abbr
+  # 提示块
+  - admonition
+  - pymdownx.details
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      # 显示行号
+      linenums: true
+      # 显示编程语言名称
+      auto_title: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  # 代码块高亮插件
+  - pymdownx.superfences
+  # 支持 Markdown 文件上方自定义标题标签等
+  - meta
