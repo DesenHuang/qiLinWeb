@@ -1,6 +1,6 @@
 # Project information
 site_name: 麒麟缘配
-site_url: https://DesenHuang.github.io/qiLinWeb/ 
+site_url: https://DesenHuang.github.io/qiLinWeb/home/
 site_description: awesome G437 
 site_author: Harrison
 
@@ -11,7 +11,7 @@ repo_url: https://github.com/DesenHuang/qiLinWeb
 # 左侧导航
 nav:
   - 项目介绍:
-    - '产品特性.md'
+    - 'home.md'
 
 
 # 主题信息
