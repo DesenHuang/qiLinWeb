@@ -1,4 +1,5 @@
 # 麒麟缘配 👋
+<mark>欢迎关注公众号**“麒麟缘配”**<mark> 了解更多项目相关内容。
 
 ## 产品特色
 ![Project Logo](./images/产品特色.png){: style="height:225px;width:auto;display:block;margin:0 auto"}
